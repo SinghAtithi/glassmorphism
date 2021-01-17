@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-main {
+main{
   min-height: 45em;
   min-width: 35em;
   background: linear-gradient(to right top, #80d8ff, #40c4ff);
@@ -14,7 +14,7 @@ main {
 }
 
 .glass {
-  background: white;
+  /* background: white; */
   height: 30rem;
   width: 45rem;
   position: absolute;
@@ -24,6 +24,8 @@ backdrop-filter: blur( 12.0px );
 -webkit-backdrop-filter: blur( 20.0px );
 border-radius: 2rem;
 display: flex ;
+align-self: center;
+justify-content: center;
 }
 
 .circle1,
@@ -92,4 +94,18 @@ circle3 {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.nav_icon{
+  border-radius: 50rem;
+  scale: 1;
+}
+
+.dashboard{
+  display: flex 1;
+  margin: ;
+}
+
+.content{
+  display: flex 2;
 }

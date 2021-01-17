@@ -4,17 +4,17 @@
   box-sizing: border-box;
 }
 
-main{
+main {
   min-height: 100vh;
   min-width: 75vh;
   background-color: silver;
-background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
-linear-gradient(155deg, #d00 23px, transparent 23px),
-linear-gradient(335deg, #b00 23px, transparent 23px),
-linear-gradient(155deg, #d00 23px, transparent 23px);
-background-size: 58px 58px;
-background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
-position: relative;
+  background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px),
+    linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,21 +25,20 @@ position: relative;
   height: 65vh;
   width: 100vh;
   position: absolute;
-  background: rgba( 255, 255, 255, 0.5);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 12.0px );
--webkit-backdrop-filter: blur( 4.0px );
--moz-backdrop-filter: blur( 20.0px );
-border-radius: 2rem;
-border: 2px solid rgba(255,255,255,0.3);
-display: flex ;
-align-self: center;
-justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(4px);
+  -moz-backdrop-filter: blur(20px);
+  border-radius: 2rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-self: center;
+  justify-content: center;
 }
 
 .circle1,
-.circle2,
-circle3 {
+.circle2 {
   height: 12rem;
   width: 12rem;
   position: absolute;
@@ -86,35 +85,35 @@ circle3 {
   margin: -2rem;
 }
 
-.username{
-    position: relative;
-    top:-1em;
-    left:1rem;
+.username {
+  position: relative;
+  top: -1em;
+  left: 1rem;
 }
 
-.nav_icon{
-    position: relative;
-    margin: 0.3rem;
-    height: 2rem;
-    /* left: 2.5rem; */
+.nav_icon {
+  position: relative;
+  margin: 0.3rem;
+  height: 2rem;
+  /* left: 2.5rem; */
 }
-.links{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-.nav_icon{
+.nav_icon {
   border-radius: 50rem;
   scale: 1;
 }
 
-.dashboard{
+.dashboard {
   display: flex 1;
   margin: 0;
 }
 
-.content{
+.content {
   display: flex 2;
 }

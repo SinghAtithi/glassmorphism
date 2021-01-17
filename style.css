@@ -5,9 +5,16 @@
 }
 
 main{
-  min-height: 45em;
-  min-width: 35em;
-  background: linear-gradient(to right top, #80d8ff, #40c4ff);
+  min-height: 100vh;
+  min-width: 75vh;
+  background-color: silver;
+background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px),
+linear-gradient(335deg, #b00 23px, transparent 23px),
+linear-gradient(155deg, #d00 23px, transparent 23px);
+background-size: 58px 58px;
+background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,14 +22,16 @@ main{
 
 .glass {
   /* background: white; */
-  height: 30rem;
-  width: 45rem;
+  height: 65vh;
+  width: 100vh;
   position: absolute;
-  background: rgba( 255, 255, 255, 0.30 );
+  background: rgba( 255, 255, 255, 0.5);
 box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
 backdrop-filter: blur( 12.0px );
--webkit-backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 4.0px );
+-moz-backdrop-filter: blur( 20.0px );
 border-radius: 2rem;
+border: 2px solid rgba(255,255,255,0.3);
 display: flex ;
 align-self: center;
 justify-content: center;
@@ -33,7 +42,7 @@ justify-content: center;
 circle3 {
   height: 12rem;
   width: 12rem;
-  position: relative;
+  position: absolute;
   z-index: 1;
   /* top: 5%; */
 }
@@ -103,7 +112,7 @@ circle3 {
 
 .dashboard{
   display: flex 1;
-  margin: ;
+  margin: 0;
 }
 
 .content{
